@@ -151,7 +151,7 @@
       toggleMenu();
     });
     on(document, "keydown", (e) => e.key === "Escape" && navbar.classList.contains("active") && toggleMenu(false));
-    $$(".navbar-menu a", header).forEach((a) => on(a, "click", () => toggleMenu(false)));
+    $$('.navbar-menu a:not([href="#"])', header).forEach((a) => on(a, "click", () => toggleMenu(false)));
   }
 
   /* ---------- Cart drawer ---------- */
@@ -421,84 +421,10 @@
     });
   }
 
-  /* ---------- Card → fullscreen transition, then navigate ---------- */
-  function expandToFullscreen(source, href, { background, radius, content }) {
-    const layer = $(".clone-transition");
-    const rect = source.getBoundingClientRect();
-    layer.innerHTML = "";
-    layer.style.background = "transparent";
-    layer.classList.add("active");
-
-    const box = document.createElement("div");
-    box.className = "clone-box";
-    Object.assign(box.style, {
-      left: `${rect.left}px`,
-      top: `${rect.top}px`,
-      width: `${rect.width}px`,
-      height: `${rect.height}px`,
-      background,
-      borderRadius: radius,
-    });
-    if (content) box.appendChild(content);
-    layer.appendChild(box);
-    lenis.stop();
-
-    if (content && content.children.length) {
-      gsap.to(content.children, { opacity: 0, duration: 0.5 });
-    }
-    gsap.to(box, {
-      left: 0,
-      top: 0,
-      width: window.innerWidth,
-      height: window.innerHeight,
-      borderRadius: 0,
-      duration: 1.2,
-      ease: "customExpo",
-      onComplete: () => (window.location.href = href),
-    });
-  }
-
-  const isPlainClick = (e) => e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey;
-
-  function initCardTransitions() {
-    $$(".product__card").forEach((card) => {
-      on(card, "click", (e) => {
-        if (isMobile() || !isPlainClick(e) || e.defaultPrevented) return;
-        e.preventDefault();
-        if (card.classList.contains("is--event")) return;
-        card.classList.add("is--event");
-        const content = card.cloneNode(true);
-        content.removeAttribute("href");
-        content.removeAttribute("style");
-        Object.assign(content.style, { width: "100%", height: "100%", background: "transparent", borderRadius: 0 });
-        expandToFullscreen(card, card.href, {
-          background: getComputedStyle(card).backgroundColor,
-          radius: "14px",
-          content,
-        });
-      });
-    });
-
-    $$(".article-card").forEach((card) => {
-      on(card, "click", (e) => {
-        if (isMobile() || !isPlainClick(e)) return;
-        const img = $("img", card);
-        if (!img) return;
-        e.preventDefault();
-        if (card.classList.contains("is--event")) return;
-        card.classList.add("is--event");
-        const copy = img.cloneNode(true);
-        copy.style.transform = "none";
-        expandToFullscreen(img, card.href, { background: "#fff", radius: "0px", content: copy });
-      });
-    });
-
-    // Back/forward cache: restore the page state
-    on(window, "pageshow", (e) => {
-      if (!e.persisted) return;
-      $(".clone-transition").classList.remove("active");
-      $$(".is--event").forEach((el) => el.classList.remove("is--event"));
-      lenis.start();
+  /* ---------- Placeholder links: pages that were not cloned do nothing ---------- */
+  function initPlaceholderLinks() {
+    on(document, "click", (e) => {
+      if (e.target.closest('a[href="#"]')) e.preventDefault();
     });
   }
 
@@ -551,6 +477,7 @@
   });
   const timeout = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+  initPlaceholderLinks();
   initHeader();
   initCart();
   initPopups();
@@ -567,7 +494,6 @@
     initParallax();
     initSliders();
     initFooter();
-    initCardTransitions();
     ScrollTrigger.refresh();
 
     Promise.race([pageLoaded, timeout(8000)]).then(runPreloader);

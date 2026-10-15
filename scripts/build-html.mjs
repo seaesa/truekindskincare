@@ -16,7 +16,7 @@ async function svg(name) {
 }
 
 async function card(slug, title, category, bg, img) {
-  return `<a href="https://truekindskincare.com/products/${slug}" class="product__card swiper-slide" aria-label="${title}" style="background-color: ${bg}">
+  return `<a href="#" class="product__card swiper-slide" aria-label="${title}" style="background-color: ${bg}">
                   <div class="product__card-head">
                     <p class="product__card-category pill-fill">${category}</p>
                     <div class="product__card-quickcart">${await svg("quickcart")}</div>

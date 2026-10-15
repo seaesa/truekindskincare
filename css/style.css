@@ -577,10 +577,6 @@ i { font-style: italic; }
 @media (min-width: 767.99px) { .cart-drawer-emptystate .icon-global { max-width: 75%; padding: .3rem .5rem; } }
 
 /* ---------- Clone (Flip) transition ---------- */
-.clone-transition { background: #fff; cursor: wait; display: none; height: 100vh; left: 0; position: fixed; top: 0; width: 100%; z-index: 998; }
-.clone-transition.active { display: block; }
-.clone-transition .clone-box { border-radius: 14px; overflow: hidden; position: fixed; }
-.clone-transition img { height: 100%; object-fit: cover; object-position: center; width: 100%; }
 
 /* ---------- Popups ---------- */
 .popup { align-items: center; display: flex; height: 100vh; height: 100dvh; justify-content: center; left: 0; pointer-events: none; position: fixed; top: 0; width: 100%; z-index: 99998; }

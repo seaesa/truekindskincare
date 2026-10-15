@@ -39,7 +39,6 @@ node scripts/build-html.mjs
 
 ## Notes
 
-- Nav links and cards point to the original site, because only the homepage was cloned.
-- On desktop, clicking a product or journal card expands it to fullscreen and then opens the original page.
+- Only the homepage was cloned. Links to pages that were not cloned (nav, CTAs, product and journal cards, login) use `href="#"` and do nothing when clicked; they never redirect to the original site. Social, mailto/tel and credit links still work.
 - The mobile menu was redesigned and no longer matches the original: numbered rows with dividers and arrows, staggered reveal, a bottom-anchored Sign Up / Login button, and Follow Us / Contact Us rows. Scrolling is locked while it is open, and Esc closes it. The menu scrolls in its own area below the header bar, so its content never slides under the logo or close button. Compact variants apply below 780px and 620px of height, and the header stays fixed while the menu is open.
 - The curved arrows draw when their SVG scrolls into view. On the original site they draw at page load, because their trigger has no layout box.

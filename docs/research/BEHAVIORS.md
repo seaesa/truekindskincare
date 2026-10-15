@@ -55,8 +55,8 @@ Timeline (defaults expo.inOut, 1s):
 - `.icon-clone`: svg duplicated; on hover first arrow flies out (translate 350% scaleX 2) and clone flies in (.8s).
 - `.magnet` (ethos arrow, offer, journal more, instagram pill, footer submit): follows cursor ±17.5px, 1s expo.out; resets on mouseout.
 - `.slider-arrow`, `.arrowlong` wrappers: scale 1.1 on hover (.3s).
-- Product card: hover crossfades to 2nd image (.3s). Swiper drag (grab cursor) → slides `scale .9, rotate 3` while moving, back to 1/0 on transitionEnd. Click (desktop) → card Flip-expands to fullscreen then navigates.
-- Journal card: image `scale 1.1 → 1` on hover (1s); click → image expands fullscreen then navigates.
+- Product card: hover crossfades to 2nd image (.3s). Swiper drag (grab cursor) → slides `scale .9, rotate 3` while moving, back to 1/0 on transitionEnd. Click (desktop) → card Flip-expands to fullscreen then navigates. **Clone: not implemented — un-cloned pages are `href="#"` and clicks do nothing.**
+- Journal card: image `scale 1.1 → 1` on hover (1s); click → image expands fullscreen then navigates (clone: click does nothing).
 - Footer: Disclaimer / Credits open popups (fade .3s, overlay .5, Esc/overlay/× close, Lenis paused). Subscribe button turns white with scale 1.1.
 
 ## Responsive
