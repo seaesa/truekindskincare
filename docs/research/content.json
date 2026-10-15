@@ -1,0 +1,155 @@
+{
+ "sliders": [
+  [
+   {
+    "href": "/products/aha-brightening-exfoliant-cleanserface-wash",
+    "title": "AHA Brightening Exfoliant Cleanser/Face Wash",
+    "cat": "Pure Brilliance",
+    "bg": "rgb(241, 204, 207)",
+    "img1": "https://images.prismic.io/truekind/ZurDj7VsGrYSvh0W_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurDkbVsGrYSvh0X_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   },
+   {
+    "href": "/products/bio-exfoliant-brightening-sleeping-mask",
+    "title": "Bio Exfoliant Brightening Sleeping Mask",
+    "cat": "Pure Brilliance",
+    "bg": "rgb(241, 204, 207)",
+    "img1": "https://images.prismic.io/truekind/ZurMbbVsGrYSviXa_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurMb7VsGrYSviXc_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   },
+   {
+    "href": "/products/aha-brightening-exfoliant-toneressence",
+    "title": "AHA Brightening Exfoliant Toner/Essence",
+    "cat": "Pure Brilliance",
+    "bg": "rgb(241, 204, 207)",
+    "img1": "https://images.prismic.io/truekind/ZurL27VsGrYSviVl_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurL3bVsGrYSviVo_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   }
+  ],
+  [
+   {
+    "href": "/products/rosehip-bakuchiol-skin-perfecting-oil",
+    "title": "Rosehip & Bakuchiol Skin Perfecting Oil",
+    "cat": "Varnaya Blends",
+    "bg": "rgb(216, 208, 196)",
+    "img1": "https://images.prismic.io/truekind/ZurQ9LVsGrYSvimZ_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurQ9rVsGrYSvimb_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   },
+   {
+    "href": "/products/manjistha-and-saffron-moisture-gel",
+    "title": "Manjistha and Saffron Moisture Gel",
+    "cat": "Varnaya Blends",
+    "bg": "rgb(216, 208, 196)",
+    "img1": "https://images.prismic.io/truekind/ZurQjbVsGrYSvik0_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurQj7VsGrYSvik3_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   },
+   {
+    "href": "/products/acne-calming-herb-rescue-mask",
+    "title": "Acne Calming Herb Rescue Mask",
+    "cat": "Varnaya Blends",
+    "bg": "rgb(216, 208, 196)",
+    "img1": "https://images.prismic.io/truekind/ZurNf7VsGrYSviaK_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurNgbVsGrYSviaN_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   },
+   {
+    "href": "/products/kumkumadi-radiance-facial-oil",
+    "title": "Kumkumadi Radiance Facial Oil",
+    "cat": "Varnaya Blends",
+    "bg": "rgb(216, 208, 196)",
+    "img1": "https://images.prismic.io/truekind/ZurP_7VsGrYSvijF_1.jpg?auto=format,compress",
+    "img2": "https://images.prismic.io/truekind/ZurQAbVsGrYSvijG_2.jpg?auto=format,compress",
+    "price": "₹899 <!---->"
+   }
+  ]
+ ],
+ "journal": [
+  {
+   "featured": true,
+   "href": "/journal/beauty-secrets-from-around-the-world-rituals-and-ingredients-you-need-to-try",
+   "img": "https://images.prismic.io/truekind/Z-Ac73dAxsiBvxdO_elegant-glass-dropper-bottles.jpg?auto=format,compress",
+   "title": "Beauty Secrets from Around the World: Rituals and Ingredients You Need to Try",
+   "desc": "Drawing from our rich ayurvedic legacy of over 30 years and embracing dermal science, we aim to create transparent skincare that is incredibly effective, safe and without harming the environment or the planet.",
+   "date": "8 Feb 2025"
+  },
+  {
+   "featured": false,
+   "href": "/journal/your-skincare-and-makeup-routine-impacts-your-well-being",
+   "img": "https://images.prismic.io/truekind/Z-6shXdAxsiBwSng_journal-2.jpg?auto=format,compress",
+   "title": "Your Skincare and Makeup Routine Impacts Your Well-Being",
+   "date": "20 Dec 2024"
+  },
+  {
+   "featured": false,
+   "href": "/journal/how-to-make-your-routine-more-eco-friendly",
+   "img": "https://images.prismic.io/truekind/Z-6uzHdAxsiBwSpf_journal-3.jpg?auto=format,compress",
+   "title": "How to Make Your Routine More Eco-Friendly",
+   "date": "25 Jan 2025"
+  }
+ ],
+ "imgs": [
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/leaf.png",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/empress.png",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/ingredients-clip.jpg",
+  "https://truekindskincare.com/icon-clean-beyond-reproach.svg",
+  "https://truekindskincare.com/icon-radical-transparency.svg",
+  "https://truekindskincare.com/icon-potent-multi-tasking.svg",
+  "https://truekindskincare.com/icon-conscious-responsible.svg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/explore-1.jpg",
+  "https://images.prismic.io/truekind/ZurDj7VsGrYSvh0W_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurDkbVsGrYSvh0X_2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurMbbVsGrYSviXa_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurMb7VsGrYSviXc_2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurL27VsGrYSviVl_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurL3bVsGrYSviVo_2.jpg?auto=format,compress",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/explore-2.jpg",
+  "https://images.prismic.io/truekind/ZurQ9LVsGrYSvimZ_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurQ9rVsGrYSvimb_2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurQjbVsGrYSvik0_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurQj7VsGrYSvik3_2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurNf7VsGrYSviaK_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurNgbVsGrYSviaN_2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurP_7VsGrYSvijF_1.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/ZurQAbVsGrYSvijG_2.jpg?auto=format,compress",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/texture.png",
+  "https://truekindskincare.com/icon-highest-standards.svg",
+  "https://truekindskincare.com/icon-real-results.svg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/175A3642-3-741.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/offer.jpg",
+  "https://images.prismic.io/truekind/Z-Ac73dAxsiBvxdO_elegant-glass-dropper-bottles.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/Z-6shXdAxsiBwSng_journal-2.jpg?auto=format,compress",
+  "https://images.prismic.io/truekind/Z-6uzHdAxsiBwSpf_journal-3.jpg?auto=format,compress",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/connect-1.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/connect.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/connect-m.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/IMG_7461.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/footer.jpg",
+  "https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/footer-m.jpg"
+ ],
+ "vids": [
+  {
+   "poster": "https://truekindskincare.com/hero-poster-m.jpg",
+   "src": "https://truekindskincare.com/hero-m.mp4"
+  },
+  {
+   "poster": "https://truekindskincare.com/hero-poster.jpg",
+   "src": "https://truekindskincare.com/hero.mp4"
+  }
+ ],
+ "bgs": [],
+ "masks": [
+  "url(\"#maskarrowtext_ingredientsM\")",
+  "url(\"#maskarrowtext_ingredients\")",
+  "url(\"https://truekindskincare.com/icon-ellipse.svg\")",
+  "url(\"#maskarrowtext_quiz\")"
+ ],
+ "favicons": [
+  "https://truekindskincare.com/favicon.ico",
+  "https://truekindskincare.com/apple-touch-icon-180x180.png"
+ ]
+}
